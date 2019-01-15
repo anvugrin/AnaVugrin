@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="hr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    <title>Moj portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="lightbox/css/lightbox.css">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+<div class="container">
+  <div class="row zaglavlje">
+    <div class="col">
+    <a href="index.html">Moj portfolio</a>
+    <p>hello!</p>
+  </div>
+</div>
+
+<div class="row navigacija">
+ <div class="col">
+    <ul>
+          <li><a href="index.html">Početna</a></li>
+          <li><a href="o_meni.html">O meni</a></li>
+          <li><a href="moji_radovi.html">Moji radovi</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="row galerija">
+  <div class="col-12">
+    <h1>Izdvojeni radovi</h1>
+  </div>
+  <div class="col-6 slika">
+    <div class="maska">
+      <p><a href="slike/slika1_velika.jpg" data-lightbox="galerija">Naziv rada</a></p>
+    </div>
+    <img src="img/slika1.jpg" class="img-fluid">
+  </div>
+  <div class="col-6 slika">
+    <div class="maska">
+      <p><a href="slike/slika2_velika.jpg" data-lightbox="galerija">Naziv rada</a></p>
+    </div>
+    <img src="img/slika2.jpg" class="img-fluid">
+  </div>
+  <div class="col-6 slika">
+    <div class="maska">
+      <p><a href="slike/slika3_velika.jpg" data-lightbox="galerija">Naziv rada</a></p>
+    </div>
+    <img src="img/slika3.png" class="img-fluid">
+  </div>
+  <div class="col-6">
+    <img src="img/slika4.jpg" class="img-fluid">
+  </div>
+
+
+ </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="lightbox/js/lightbox.js"></script>
+
+  </body>
+  <!-- ************** Kontakt / početak ************** -->
+  <div class="row kontakt">
+    <div class="col">
+      <h1>Brzi kontakt</h1>
+      <form action="" method="post">
+        <div class="form-group">
+          <input type="text" class="form-control" id="name" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="subject" placeholder="Subject">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" id="e-mail" placeholder="E-mail">
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" id="message" rows="3" placeholder="Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </div>
+  </div>  <!-- ************** Kontakt / kraj ************** -->
+
+  <!-- ************** Footer / početak ************** -->
+  <div class="row footer">
+    <div class="col">
+      <div class="footer-content">
+        <ul>
+          <li><a href="index.html">Početna</a></li>
+          <li><a href="o_meni.html">O meni</a></li>
+          <li><a href="moji_radovi.html">Moji radovi</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+        <p>Izradila: Ana Vugrin, 2018.</p>
+      </div>
+    </div>
+  </div>
+  <!-- ************** Footer / kraj ************** -->
+</div>
+<script src="bootstrap/jquery.min.js"></script>
+<script src="bootstrap/popper.min.js"></script>
+<script src="bootstrap/bootstrap.min.js"></script>
+<script src="lightbox/js/lightbox.js"></script>
+<script>
+  $('.hamburger').click(function(){
+    $('.main-menu').slideToggle();
+  });
+</script>
+</body>
+</html>
